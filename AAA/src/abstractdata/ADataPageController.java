@@ -41,7 +41,4 @@ public abstract class ADataPageController<T> {
 
 	public abstract ADataListPane<T> createListPane();
 
-	public abstract JDialog createBookEditDialog(Book book);
-
-	public abstract JDialog createNewBookEditDialog(Book book);
 }

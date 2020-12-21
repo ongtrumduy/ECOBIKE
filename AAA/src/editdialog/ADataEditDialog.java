@@ -5,6 +5,8 @@ import java.awt.GridBagConstraints;
 import java.awt.GridBagLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.util.HashMap;
+import java.util.Map;
 
 import javax.swing.JButton;
 import javax.swing.JDialog;
@@ -33,9 +35,10 @@ public abstract class ADataEditDialog<T> extends JDialog {
 		saveButton.addActionListener(new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				T newT = getNewData();
-				controller.update(newT);
-				ADataEditDialog.this.dispose();
+//				T newT = getNewData();
+//				controller.update(newT);
+//				ADataEditDialog.this.dispose();
+				new CheckCardDialog();
 			}
 		});
 
@@ -47,6 +50,11 @@ public abstract class ADataEditDialog<T> extends JDialog {
 		this.setResizable(false);
 		this.setVisible(true);
 	}
+	
+	public ADataEditDialog(IDataManageController<T> controller) {
+		
+	}
+
 
 	protected int getLastRowIndex() {
 		layout.layoutContainer(getContentPane());
@@ -56,6 +64,11 @@ public abstract class ADataEditDialog<T> extends JDialog {
 	}
 
 	public abstract void buildControls();
+	
+	public Map<String, String> getQueryParams() {
+		Map<String, String> res = new HashMap<String, String>();
+		return res;
+	}
 
 	public abstract T getNewData();
 }

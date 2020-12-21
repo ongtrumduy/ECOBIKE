@@ -1,8 +1,9 @@
 eclipse.preferences.version=1
 encoding//src/abstractdata/ADataSearchPane.java=UTF-8
+encoding//src/bike/BikeHireSearchPane.java=UTF-8
+encoding//src/bike/BikeHireSinglePane.java=UTF-8
+encoding//src/bike/UserBikeHireListPane.java=UTF-8
 encoding//src/editdialog/ADataEditDialog.java=UTF-8
 encoding//src/editdialog/MediaEditDialog.java=UTF-8
-encoding//src/main/OMSUser.java=UTF-8
-encoding//src/media/MediaSearchPane.java=UTF-8
-encoding//src/media/MediaSinglePane.java=UTF-8
-encoding//src/media/UserMediaListPane.java=UTF-8
+encoding//src/main/ECoSUser.java=UTF-8
+encoding/<project>=UTF-8

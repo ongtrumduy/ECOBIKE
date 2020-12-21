@@ -1,0 +1,41 @@
+[
+	{
+		"idBike": "111111",
+		"typeBike":"Xe đạp đơn thường",
+		"costBike":"400000",
+		"positionBike":"Số 10, Tạ Quang Bửu, Hai Bà Trưng, Hà Nội"
+	},
+	{
+		"idBike": "222222",
+		"typeBike":"Xe đạp đơn điện",
+		"costBike":"700000",
+		"positionBike":"Số 1, Trần Đại Nghĩa, Hai Bà Trưng, Hà Nội"
+	},
+{
+		"idBike": "333333",
+		"typeBike":"Xe đạp đôi thường",
+		"costBike":"550000",
+		"positionBike":"Số 10, Tạ Quang Bửu, Hai Bà Trưng, Hà Nội"
+	},
+	{
+		"idBike": "444444",
+		"typeBike":"Xe đạp đôi thường",
+		"costBike":"550000",
+		"positionBike":"Số 10, Tạ Quang Bửu, Hai Bà Trưng, Hà Nội"
+	},
+	{
+		"idBike": "555555",
+		"typeBike":"Xe đạp đơn điện",
+		"costBike":"700000",
+		"positionBike":"Số 1, Trần Đại Nghĩa, Hai Bà Trưng, Hà Nội"
+	},
+	{
+		"idBike": "666666",
+		"typeBike":"Xe đạp đơn thường",
+		"costBike":"400000",
+		"positionBike":"Số 10, Tạ Quang Bửu, Hai Bà Trưng, Hà Nội"
+	}
+]
+
+
+
