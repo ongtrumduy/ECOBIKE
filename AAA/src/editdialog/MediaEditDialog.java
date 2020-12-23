@@ -5,18 +5,18 @@ import java.util.Map;
 import javax.swing.JLabel;
 import javax.swing.JTextField;
 
-import com.oms.bean.Media;
+import com.oms.bean.ReceiveBikeInfor;
 
 import abstractdata.IDataManageController;
 
 @SuppressWarnings("serial")
-public class MediaEditDialog extends ADataEditDialog<Media> {
+public class MediaEditDialog extends ADataEditDialog<ReceiveBikeInfor> {
 
 	private JTextField titleField;
 	private JTextField categoryField;
 	private JTextField costField;
 
-	public MediaEditDialog(Media media, IDataManageController<Media> controller) {
+	public MediaEditDialog(ReceiveBikeInfor media, IDataManageController<ReceiveBikeInfor> controller) {
 		super(media, controller);
 	}
 
@@ -45,7 +45,7 @@ public class MediaEditDialog extends ADataEditDialog<Media> {
 	}
 
 	@Override
-	public Media getNewData() {
+	public ReceiveBikeInfor getNewData() {
 		// TODO Auto-generated method stub
 		return null;
 	}

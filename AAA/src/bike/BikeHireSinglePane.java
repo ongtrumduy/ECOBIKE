@@ -2,12 +2,12 @@ package bike;
 
 import javax.swing.JLabel;
 
-import com.oms.bean.Media;
+import com.oms.bean.ReceiveBikeInfor;
 
 import abstractdata.ADataSinglePane;
 
 @SuppressWarnings("serial")
-public class BikeHireSinglePane extends ADataSinglePane<Media>{
+public class BikeHireSinglePane extends ADataSinglePane<ReceiveBikeInfor>{
 	private JLabel labelIdBike;
 	private JLabel labelTypeBike;
 	private JLabel labelCostBike;
@@ -18,7 +18,7 @@ public class BikeHireSinglePane extends ADataSinglePane<Media>{
 	}
 		
 	
-	public BikeHireSinglePane(Media media) {
+	public BikeHireSinglePane(ReceiveBikeInfor media) {
 		this();
 		this.t = media;
 		

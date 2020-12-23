@@ -8,7 +8,7 @@ import com.oms.db.seed.Seed;
 public class JsonBikeInforDatabase implements IBikeInforDatabase {
 	private static IBikeInforDatabase singleton = new JsonBikeInforDatabase();
 
-	private ArrayList<BikeInfor> bikes = Seed.singleton().getBikeInfors();
+	private ArrayList<BikeInfor> bikes = Seed.singleton().getBikeInfor();
 
 	private JsonBikeInforDatabase() {
 	}

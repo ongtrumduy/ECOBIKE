@@ -1,16 +1,16 @@
-package admin;
+package main;
 
 import java.awt.BorderLayout;
 
 import javax.swing.*;
 
 @SuppressWarnings("serial")
-public class OMSAdmin extends JFrame {
+public class ECoUser extends JFrame {
 
 	public static final int WINDOW_WIDTH = 800;
 	public static final int WINDOW_HEIGHT = 550;
 	
-	public OMSAdmin(OMSAdminController controller) {
+	public ECoUser(ECoUserController controller) {
 		JPanel rootPanel = new JPanel();
 		setContentPane(rootPanel);
 		BorderLayout layout = new BorderLayout();
@@ -21,16 +21,11 @@ public class OMSAdmin extends JFrame {
 		
 		
 		JPanel bookPage = controller.getBookPage();
-		tabbedPane.addTab("Books", null, bookPage, "Books");
+		tabbedPane.addTab("THUÊ XE", null, bookPage, "THUÊ XE");
 		
-		
-		tabbedPane.addTab("Compact Discs", null, new JPanel(), "Compact Discs");
-		tabbedPane.addTab("Digital Video Discs", null, new JPanel(), "Digital Video Discs");
-
-
 
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		setTitle("Online Media System for Admin 20173203 - Nguyễn Đăng Trung Kiên");
+		setTitle("Hệ thống Thuê Xe EcoBike - Pham Huy Duy - 20173074");
 		setSize(WINDOW_WIDTH, WINDOW_HEIGHT);
 		setVisible(true);
 	}
@@ -50,7 +45,7 @@ public class OMSAdmin extends JFrame {
 		
 		SwingUtilities.invokeLater(new Runnable() {
 			public void run() {
-				new OMSAdmin(new OMSAdminController());
+				new ECoUser(new ECoUserController());
 			}
 		});
 	}

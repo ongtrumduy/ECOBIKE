@@ -3,7 +3,7 @@ package abstractdata;
 import java.util.List;
 import java.util.Map;
 
-import com.oms.bean.Book;
+import com.oms.bean.ReceiveBikeInfor;
 
 import javax.swing.JDialog;
 import javax.swing.JPanel;

@@ -6,7 +6,7 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.fasterxml.jackson.annotation.JsonSubTypes.Type;
 
 @JsonTypeInfo(use = JsonTypeInfo.Id.NAME, include = JsonTypeInfo.As.PROPERTY, property = "type")
-@JsonTypeName("bike")
+@JsonTypeName("bikeinfor")
 @JsonSubTypes({ @Type(value = BikeInfor.class, name = "bike") })
 public class BikeInfor {
 	private String idBike;

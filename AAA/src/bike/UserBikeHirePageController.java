@@ -1,18 +1,17 @@
 package bike;
 
-import com.oms.bean.Media;
+import com.oms.bean.ReceiveBikeInfor;
 
 import abstractdata.ADataListPane;
 import abstractdata.ADataPageController;
-import cardinfor.CartController;
 
-public abstract class UserBikeHirePageController extends ADataPageController<Media> {
+public abstract class UserBikeHirePageController extends ADataPageController<ReceiveBikeInfor> {
 	public UserBikeHirePageController() {
 		super();
 	}
 
 	@Override
-	public ADataListPane<Media> createListPane() {
+	public ADataListPane<ReceiveBikeInfor> createListPane() {
 		return new UserBikeHireListPane(this);
 	}
 

@@ -24,10 +24,7 @@ public class OMSServer {
 
 		
 		jerseyServlet.setInitParameter("jersey.config.server.provider.classnames",
-//				MediaService.class.getCanonicalName() + ", " + 
 				BikeInforService.class.getCanonicalName() + ", " 
-//				CompactDiscService.class.getCanonicalName() + ", " +
-//				DigitalVideoDiscService.class.getCanonicalName()
 		);
 
 		

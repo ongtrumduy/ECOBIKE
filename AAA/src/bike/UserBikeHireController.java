@@ -5,13 +5,11 @@ import java.util.Map;
 
 import javax.swing.JDialog;
 
-import com.oms.bean.Book;
-import com.oms.bean.Media;
+import com.oms.bean.ReceiveBikeInfor;
 
 import abstractdata.IDataManageController;
-import api.MediaApi;
-import cardinfor.CartController;
-import editdialog.BookEditDialog;
+import api.BikeInforApi;
+
 
 public class UserBikeHireController extends UserBikeHirePageController {
 	public UserBikeHireController() {
@@ -19,8 +17,8 @@ public class UserBikeHireController extends UserBikeHirePageController {
 	}
 
 	@Override
-	public List<? extends Media> search(Map<String, String> searchParams) {
-		return new MediaApi().getBooks(searchParams);
+	public List<? extends ReceiveBikeInfor> search(Map<String, String> searchParams) {
+		return new BikeInforApi().getReceiveBikeInfor(searchParams);
 	}
 
 	@Override

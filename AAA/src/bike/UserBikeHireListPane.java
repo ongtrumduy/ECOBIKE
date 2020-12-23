@@ -8,23 +8,21 @@ import javax.swing.JButton;
 import javax.swing.JSpinner;
 import javax.swing.SpinnerNumberModel;
 
-import com.oms.bean.Book;
-import com.oms.bean.Media;
-
+import com.oms.bean.ReceiveBikeInfor;
 import abstractdata.ADataListPane;
 import abstractdata.ADataPageController;
 import abstractdata.ADataSinglePane;
 
 @SuppressWarnings("serial")
-public class UserBikeHireListPane extends ADataListPane<Media>{
+public class UserBikeHireListPane extends ADataListPane<ReceiveBikeInfor>{
 	
-	public UserBikeHireListPane(ADataPageController<Media> controller) {
+	public UserBikeHireListPane(ADataPageController<ReceiveBikeInfor> controller) {
 		this.controller = controller;
 	}
 	
 
 	@Override
-	public void decorateSinglePane(ADataSinglePane<Media> singlePane) {
+	public void decorateSinglePane(ADataSinglePane<ReceiveBikeInfor> singlePane) {
 		
 		JButton button = new JButton("Xác nhận Thuê xe");
 		singlePane.addDataHandlingComponent(button);

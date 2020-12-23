@@ -45,7 +45,7 @@ public class Seed {
 		return res;
 	}
 
-	public ArrayList<BikeInfor> getBikeInfors() {
+	public ArrayList<BikeInfor> getBikeInfor() {
 		return bikes;
 	}
 

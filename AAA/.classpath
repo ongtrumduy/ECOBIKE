@@ -26,7 +26,7 @@
 	<classpathentry kind="lib" path="lib-jersey-client/jaxb-core-2.3.0.jar"/>
 	<classpathentry kind="lib" path="lib-jersey-client/jaxb-impl-2.3.0.jar"/>
 	<classpathentry kind="lib" path="lib-jersey-client/jersey-client-2.31.jar"/>
-	<classpathentry kind="lib" path="lib-jersey-client/jersey-common-2.31.jar"/>
+	<classpathentry kind="lib" path="lib-jersey-client/jersey-common-2.31.jar" sourcepath="C:/Users/ONGTRUMDUY/.m2/repository/org/glassfish/jersey/core/jersey-common/2.31/jersey-common-2.31-sources.jar"/>
 	<classpathentry kind="lib" path="lib-jersey-client/jersey-entity-filtering-2.31.jar"/>
 	<classpathentry kind="lib" path="lib-jersey-client/jersey-hk2-2.31.jar"/>
 	<classpathentry kind="lib" path="lib-jersey-client/jersey-media-json-jackson-2.31.jar"/>
